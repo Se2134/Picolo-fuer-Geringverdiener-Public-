@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#8293ab</color>
+    <color name="primary_content">#12161b</color>
+    <color name="primary_light">#a0adbf</color>
+    <color name="primary_dark">#647995</color>
+
+    <color name="secondary2">#ab8293</color>
+    <color name="secondary_content2">#1b1216</color>
+    <color name="secondary_light2">#bfa0ad</color>
+    <color name="secondary_dark2">#956479</color>
+
+    <color name="secondary">#82ab9a</color>
+    <color name="secondary_content">#121b18</color>
+    <color name="secondary_light">#a0bfb3</color>
+    <color name="secondary_dark">#649581</color>
+
+    <color name="neutrals_foreground">#1c2431</color>
+    <color name="neutrals_background">#121821</color>
+    <color name="neutrals_border">#2e3d52</color>
+    <color name="neutrals_copy">#fafbfc</color>
+    <color name="neutrals_copy_light">#ced7e3</color>
+    <color name="neutrals_copy_lighter">#8da1bf</color>
+
+    <color name="light_neutrals_foreground">#fafbfc</color>
+    <color name="light_neutrals_background">#ebeff4</color>
+    <color name="light_neutrals_border">#d6dee8</color>
+    <color name="light_neutrals_copy">#1c2431</color>
+    <color name="light_neutrals_copy_light">#496183</color>
+    <color name="light_neutrals_copy_lighter">#6c87ac</color>
+
+    <color name="utility_success">#82ab82</color>
+    <color name="utility_warning">#abab82</color>
+    <color name="utility_error">#ab8282</color>
+    <color name="utility_success_content">#121b12</color>
+    <color name="utility_warning_content">#1b1b12</color>
+    <color name="utility_error_content">#1b1212</color>
+</resources>

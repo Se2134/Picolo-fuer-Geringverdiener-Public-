@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Picolo für Geringverdiener</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- eigene strings -->
+    <string name="zurück">ZURÜCK</string>
+    <string name="weiter">WEITER</string>
+    <string name="geschichte">GESCHICHTE</string>
+    <string name="regeln">REGELN</string>
+    <string name="led_app">LED APP</string>
+    <string name="waehle_modus">WÄHLE EINEN SPIELMODUS</string>
+    <string name="start">START</string>
+    <string name="waehle_spieler_namen_hier">HIER NAME EINGEBEN</string>
+
+    <string name="regeln_text">1. Sollten keine Shots möglich sein könnt ihr auch 5 Schlücke trinken.\n" +
+                            "2. Wenn das Glas leer wird muss mit dem Getränk vor einem und dem nächsten nicht-/alkoholhaltigen Getränk nachgefüllt werden, sodass eine Mischung aus alkoholhaltigem und nicht alkoholhaltigen Getränk entsteht.\n" +
+                            "3. Wer ein Spiel gegen alle anderen gewinnt darf zusätzlich einem anderen Spieler ein belibiges Getränk nachfüllen.\n" +
+                            "4. Bei Warheiten und Pflichten kann man auch stattdessen 5 Schlücke trinken.\n" +
+                            "5. Bei Entweder-Oder-Fragen immer in die Richtung drehen, die man mehr mag.\n" +
+                            "6. Wenn gedreht wird muss sich jeder einen Sluck von dem neuen Getränk einschenken (sollte der Becher schon voll sein muss ein Schluck abgetrunken werden.\n" +
+                            "7. Habt Spaß\n</string>
+
+    <!-- Alternativ Regeln:
+    2. Wenn ein Glas leer wird, muss mit dem Getränk vor der Person und einem Getränk der Wahl nachgefüllt werden.\n
+    2. Wenn ein Glas leer wird, muss mit dem Getränk vor der Person und mit einem Getränk der Wahl der Person daneben nachgefüllt (die Person die wählt muss sich auch einen Schluck einschenken).\n-->
+
+    <string name="geschichte_1">Hier stand die Entstehungsgeschichte des ganzen Geschenks</string>
+
+    <string name="waehle_spiel">Wähle ein Spiel</string>
+    <string name="picolo_spiel">Picolo</string>
+    <string name="drehplatte_an">Mit Drehplatte</string>
+    <string name="spieler_hinzufuegen">Hinzufügen</string>
+    <string name="spieler_namen_eingeben_hier">Hier Spielernamen eingeben</string>
+    <string name="laden">Spieler laden</string>
+    <string name="name">Name</string>
+    <string name="entfernen">Entfernen</string>
+
+    <string name="clickToStart">Zum Starten drücken</string>
+
+    <string name="einstellungen">Einstellungen</string>
+
+    <string name="spieler_aendern">Spieler ändern</string>
+    <string name="spiel_aendern">Spiel ändern</string>
+    <string name="fragen_reset">Liste resetten</string>
+
+    <string name="typ">Typ</string>
+</resources>

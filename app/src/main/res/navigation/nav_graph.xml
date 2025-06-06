@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/start_fragment">
+
+    <fragment
+        android:id="@+id/start_fragment"
+        android:name="com.example.picolofuergeringverdiener.Start"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_start_to_spielAuswahl"
+            app:destination="@id/spielAuswahl" />
+        <action
+            android:id="@+id/action_start_to_einstellungen"
+            app:destination="@id/einstellungen" />
+    </fragment>
+    <fragment
+        android:id="@+id/einstellungen"
+        android:name="com.example.picolofuergeringverdiener.Einstellungen"
+        android:label="fragment_einstellungen"
+        tools:layout="@layout/fragment_einstellungen" >
+        <action
+            android:id="@+id/action_einstellungen_to_spieler_wahl"
+            app:destination="@id/spieler_wahl" />
+        <action
+            android:id="@+id/action_einstellungen_to_spielAuswahl"
+            app:destination="@id/spielAuswahl" />
+        <action
+            android:id="@+id/action_einstellungen_to_picolo"
+            app:destination="@id/picolo" />
+        <action
+            android:id="@+id/action_einstellungen_to_start"
+            app:destination="@id/start_fragment" />
+        <action
+            android:id="@+id/action_einstellungen_to_fragenWahl"
+            app:destination="@id/fragenWahl" />
+        <action
+            android:id="@+id/action_einstellungen_to_geschichte2"
+            app:destination="@id/geschichte2" />
+    </fragment>
+    <fragment
+        android:id="@+id/spielAuswahl"
+        android:name="com.example.picolofuergeringverdiener.SpielAuswahl"
+        android:label="fragment_spiel_auswahl"
+        tools:layout="@layout/fragment_spiel_auswahl" >
+        <action
+            android:id="@+id/action_spielAuswahl_to_einstellungen"
+            app:destination="@id/einstellungen" />
+        <action
+            android:id="@+id/action_spielAuswahl_to_fragenWahl2"
+            app:destination="@id/fragenWahl" />
+    </fragment>
+    <fragment
+        android:id="@+id/spieler_wahl"
+        android:name="com.example.picolofuergeringverdiener.SpielerWahl"
+        android:label="fragment_spieler_wahl"
+        tools:layout="@layout/fragment_spieler_wahl" >
+        <action
+            android:id="@+id/action_spieler_wahl_to_picolo"
+            app:destination="@id/picolo" />
+        <action
+            android:id="@+id/action_spieler_wahl_to_einstellungen"
+            app:destination="@id/einstellungen" />
+        <action
+            android:id="@+id/action_spieler_wahl_to_spielAuswahl"
+            app:destination="@id/spielAuswahl" />
+    </fragment>
+    <fragment
+        android:id="@+id/picolo"
+        android:name="com.example.picolofuergeringverdiener.Picolo"
+        android:label="fragment_picolo"
+        tools:layout="@layout/fragment_picolo" >
+        <action
+            android:id="@+id/action_picolo_to_einstellungen"
+            app:destination="@id/einstellungen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragenWahl"
+        android:name="com.example.picolofuergeringverdiener.FragenWahl"
+        android:label="fragment_fragen_wahl"
+        tools:layout="@layout/fragment_fragen_wahl" >
+        <action
+            android:id="@+id/action_fragenWahl_to_spieler_wahl2"
+            app:destination="@id/spieler_wahl" />
+        <action
+            android:id="@+id/action_fragenWahl_to_spielAuswahl"
+            app:destination="@id/spielAuswahl" />
+        <action
+            android:id="@+id/action_fragenWahl_to_einstellungen"
+            app:destination="@id/einstellungen" />
+    </fragment>
+    <fragment
+        android:id="@+id/geschichte2"
+        android:name="com.example.picolofuergeringverdiener.Geschichte"
+        android:label="fragment_geschichte"
+        tools:layout="@layout/fragment_geschichte" >
+        <action
+            android:id="@+id/action_geschichte2_to_einstellungen"
+            app:destination="@id/einstellungen" />
+    </fragment>
+</navigation>
